@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    font-size: 15px;
+}
+
+.insta {
+    width: 175px;
+}
+
+.face {
+    width: 18px;
+    margin-right: 8px;
+}
+
+.container {
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 120px auto 10px;
+}
+.header {
+    text-align: center;
+}
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login_form {
+    text-align: center;
+}
+input {
+    padding: 8px;
+    width: 265px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background-color: #fafafa;
+}
+input:focus {
+    outline: 1px solid darkgray;
+}
+
+
+.login_button {
+    background-color:rgb(5, 117, 223);
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    width: 265px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+}
+.or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15px;
+    margin: 20px;
+    color: #a5a1a1;
+}
+
+.or .line {
+    width: 100px;
+    height: 2px;
+    background-color: #efefef;
+}
+
+.option .fb  {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.forgot {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: smaller;
+}
+
+.sign_up {
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    max-width: 350px;
+    width: 100%;
+    margin: 7px auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+span {
+    color: rgb(5, 117, 223);
+    font-weight: 700;
+}
+.para_app {
+    max-width: 300px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.logo_app {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.store {
+    width: 140px;
+}
+.foot_top {
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 60px;
+}
+
+.foot_top a {
+    color: #a5a1a1;
+    font-size: 12px;
+    margin: 8px;
+}
+
+.foot_bottom {
+    display: flex;
+    justify-content: center;
+    color: #a5a1a1;
+    font-size: 12px;
+    margin: 20px
+}
+
+select {
+    border: none;
+    background-color: #fafafa;
+    color: #a5a1a1;
+    width: 70px;
+    margin-left: 12px;
+}
+
